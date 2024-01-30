@@ -5,7 +5,7 @@ Description:  A Theme for RFG - Kadence child theme
 Author:       Aleksandra Osinska
 Author URI:   https://alekscreative.com/portfolio
 Template:     kadence
-Version:      1.0.1
+Version:      1.0.2
 Text Domain:  RFG
 */
 
@@ -32,7 +32,7 @@ tbody {
 }
 #secondary article {
 	background-color: #fff;
-	border: 1px solid #2C8980;
+	border: 1px solid #1a6c64;
 }
 
 .uagb-post-grid .uagb-post__image img {
@@ -58,12 +58,12 @@ blockquote {
     font-style: normal;
     font-weight: 400;
 	padding: 20px;
-	color: #2c8980;
-	border-left: 4px solid #2C8980!important;
+	color: #1a6c64;
+	border-left: 4px solid #1a6c64!important;
 }
 
 figcaption {
-	color:#2C8980;
+	color:#1a6c64;
 	font-size: 13px;
 	line-height: 18px;
 	font-weight: 500;
@@ -203,12 +203,12 @@ div.previous-event-content-box.past-events-list-styles h3 {
 }
 
 .tribe-events-calendar-list__event-title-link:hover {
-	color: #C0431D!important;
+	color: #B13F1D!important;
 	text-decoration: underline;
 }
 
 .tribe-event-categories a {
-	color: #2C8980!important;
+	color: #1a6c64!important;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -219,7 +219,7 @@ div.previous-event-content-box.past-events-list-styles h3 {
 /* Date and location box - green box */
 
 .event-date-location-box {
-	background-color: #2C8980;
+	background-color: #1a6c64;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -300,7 +300,7 @@ button.find-out:hover>a {
 button.tribe-common-c-btn.tribe-common-c-btn--small.tribe-tickets__tickets-buy:hover,
 button.tribe-common-c-btn.tribe-common-c-btn--small.tribe-tickets__tickets-buy:focus,
 button.tribe-common-c-btn.tribe-common-c-btn--small.tribe-tickets__tickets-buy:hover:active {
-	background-color: #E56444;
+	background-color: #C6563A;
 	color:#fff!important;
 }
 
@@ -420,7 +420,7 @@ line-height: 30px; /* 100% */
 }
 
 .past-events-date-box-items h3 {
-color: #2C8980!important;
+color: #1a6c64!important;
 font-size: 32px;
 font-weight: bold;
 line-height: 39px;
@@ -440,7 +440,7 @@ padding-right: 15px!important;
 	margin-bottom: 15px!important;
 }
 .previous-event-content-box h3 a:hover {
-	color: #C0431D;
+	color: #B13F1D;
 	text-decoration: underline;
 }
 .previous-event-content-box a {
@@ -460,10 +460,10 @@ hr.past-events {
 
 }
 #ect-events-list-content .ect-list-description .ect-event-content a {
-	color: #C0431D!important;
+	color: #B13F1D!important;
 }
 #ect-events-list-content .ect-list-description .ect-event-content a:hover {
-	color: #E56444!important;
+	color: #C6563A!important;
 }
 /* Single event page styles */
 
@@ -477,7 +477,7 @@ div.single-event-wrapper-container {
 .tribe-events-notices li {
 	list-style-type:none;
 
-	color: #2C8980;
+	color: #1a6c64;
 }
 h3.tribe-events-single-section-title {
 	font-weight: bold;
@@ -526,7 +526,7 @@ div.single-event-meta-box {
 	min-width: 350px;
 	background-color: #fff;
 	max-width: 400px;
-	border:1px solid #2C8980;
+	border:1px solid #1a6c64;
 	height: fit-content;
 }
 abbr {
@@ -536,7 +536,7 @@ abbr {
 span.tribe-events-start-date,
 span.tribe-events-start-time {
 	font-weight: bold;
-	color: #2C8980;
+	color: #1a6c64;
 	
 	padding-left: 15px;
 }
@@ -546,7 +546,7 @@ span.tribe-events-start-time {
 }
 
 .ticket-price-box {
-	background-color: #2C8980;
+	background-color: #1a6c64;
 	color: #fff;
 	width: auto;
 	margin-top:15px;
@@ -625,7 +625,7 @@ div.tribe-common.event-tickets.tribe-tickets__tickets-wrapper form {
 	max-width: 100%;
 	background-color: #fff;
 	border-radius: 0;
-	border: 1px solid #2C8980; 
+	border: 1px solid #1a6c64; 
 	
 }
 button.tribe-common-c-btn.tribe-common-c-btn--small.tribe-tickets__tickets-buy {
