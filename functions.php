@@ -36,3 +36,11 @@ function tec_custom_excerpt_length( $words ) {
 
 }
 
+
+// PMPro action redirecting user to home page after logging out rather than to wp-admin page
+
+add_action('wp_logout','auto_redirect_after_logout');
+function auto_redirect_after_logout(){
+wp_safe_redirect( home_url() );
+exit();
+}
