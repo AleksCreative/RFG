@@ -5,7 +5,7 @@ Description:  A Theme for RFG - Kadence child theme
 Author:       Aleksandra Osinska
 Author URI:   https://alekscreative.com/portfolio
 Template:     kadence
-Version:      1.0.3
+Version:      1.0.4
 Text Domain:  RFG
 */
 
@@ -712,4 +712,72 @@ div.pmpro_lost_password_wrap hr {
 
 p.pmpro_actions_nav {
 	text-align: left;
+}
+
+span.ev-mo, span.ev-yr {
+	font-size: 18px!important;
+	font-weight: bold;
+	line-height: 2.2em;
+}
+
+div.modern-list-right-side {
+	background-color: #1a6c64!important;
+}
+
+.pmpro_btn.pmpro_btn-select
+{ display: inline-flex;
+	min-width: 100%;
+	font-size: 17px;
+    padding: 16px 57px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+	border-radius: 0;
+	background: #C0431D; }
+
+.pmpro_btn.disabled {
+	min-width: 100%;
+	font-size: 17px;
+	  padding: 16px 57px;
+    justify-content: center;
+    align-items: center;
+	border-radius: 0;
+}
+
+.pmpro_content_message a {
+	font-size: 17px;
+	line-height: 40px;
+	padding: 10px 35px!important;
+	border: 0!important;
+	border-radius: 0!important;
+	color: #fff;
+	background: #C0431D;
+}
+
+.pmpro_btn.pmpro_btn-select:hover {
+	background: #E56444;
+}
+
+#pmpro_levels_table{
+	min-height: 200px;
+}
+
+.entry-meta>*:after {
+	display: none;
+}
+
+thead {
+	text-align: left;
+}
+#pmpro_account-profile ul li {list-style: none; }
+#pmpro_account-profile ul {
+padding-left: 0; }
+
+p.pmpro_level-price {
+	display: block;
+}
+
+h3.pmpro_member_display_name a {
+	color:#C0431D!important;
+	font-weight: 500;
 }
