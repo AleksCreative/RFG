@@ -27,7 +27,7 @@ do_action( 'kadence_single' );
  <?php
      global $post;
 
-     $get_posts = tribe_get_events(array('posts_per_page'=>10, 'eventDisplay'=>'past', 'paged'=>'paged') );
+     $get_posts = tribe_get_events(array('posts_per_page'=>100, 'eventDisplay'=>'past', 'paged'=>'paged') );
 
      foreach($get_posts as $post) { setup_postdata($post);
  ?>
