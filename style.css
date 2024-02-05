@@ -5,7 +5,7 @@ Description:  A Theme for RFG - Kadence child theme
 Author:       Aleksandra Osinska
 Author URI:   https://alekscreative.com/portfolio
 Template:     kadence
-Version:      1.0.10
+Version:      1.0.11
 Text Domain:  RFG
 */
 
@@ -813,7 +813,8 @@ p.pmpro_level-price::after {
 	display: none;
 }
 
-span.pmpro_checkout-h2-msg {
+span.pmpro_checkout-h2-msg
+ {
 	font-family: 'Open Sans';
 	font-size: 15px;
 	font-weight: 600!important;

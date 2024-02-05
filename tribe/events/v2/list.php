@@ -89,7 +89,7 @@ if ( empty( $disable_event_search ) ) {
 				<?php
 					global $post;
 
-					$get_posts = tribe_get_events(array('posts_per_page'=>35, 'eventDisplay'=>'past') );
+					$get_posts = tribe_get_events(array('posts_per_page'=>8, 'eventDisplay'=>'past') );
 
 					foreach($get_posts as $post) { setup_postdata($post);
         		?>
