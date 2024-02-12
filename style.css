@@ -5,7 +5,7 @@ Description:  A Theme for RFG - Kadence child theme
 Author:       Aleksandra Osinska
 Author URI:   https://alekscreative.com/portfolio
 Template:     kadence
-Version:      1.0.14
+Version:      1.0.15
 Text Domain:  RFG
 */
 
@@ -825,4 +825,53 @@ span.pmpro_checkout-h2-msg
 span.pmpro_checkout-h2-msg a  {
 	
 	color: #B13F1D;
+}
+
+.pmpro_confirmation_wrap h2 {
+	font-size: 25px;
+	font-family: 'Open Sans';
+}
+#pmprogroupacct_manage_group_members {
+	margin-bottom: 20px;
+}
+
+#pmprogroupacct_manage_group code {
+	font-size: 20px;
+}
+
+#pmprogroupacct_manage_group ul li code {
+	font-size: 16px;
+}
+
+#pmpro_level-3 h2 span.pmpro_checkout-h2-msg, #pmprogroupacct_manage_group_invite_members {
+	display:none;
+}
+a.ect-events-read-more {
+	
+    color: #b13f1d!important;
+	font-weight: bold;
+	font-size: 17px!important;
+	
+}
+div#tribe-events-content {
+	padding-top: 20px!important;
+}
+div#tribe-events-content h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	font-family: 'Open Sans';
+}
+div#tribe-events-content h2 {
+	font-family: 'Open Sans';
+	font-size: 25px;
+}
+@media only screen and (max-width: 790px) {
+	div.ect-list-description {
+		width: 100%!important;
+		text-align: left!important;
+	}
+}
+
+input.tribe-tickets__commerce-checkout-stripe-card-element-zip-input::placeholder {
+	color: grey!important;
 }
