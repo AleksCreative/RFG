@@ -110,3 +110,12 @@ add_action('init', function () {
  add_filter( 'pmpro_checkout_confirm_password', '__return_false' );
  add_filter( 'pmpro_checkout_confirm_email', '__return_false' );
  
+
+ // Add custom sorting for users by last name
+function custom_user_sorting_by_last_name($query) {
+    if (is_admin() && $query->is_main_query() && 'users' == $query->query_vars['post_type']) {
+        $query->set('orderby', 'meta_value');
+        $query->set('meta_key', 'last_name');
+    }
+}
+add_action('pre_get_users', 'custom_user_sorting_by_last_name');
