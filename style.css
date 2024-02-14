@@ -630,8 +630,8 @@ button.tribe-common-c-btn.tribe-common-c-btn--small.tribe-tickets__tickets-buy {
 	border-radius: 0;
 }
 button.tribe-common-c-btn.tribe-common-c-btn--small.tribe-tickets__tickets-buy.tribe-common-c-btn:disabled {
-	background-color: #ffffff65;
-	color: #C03D1D!important;
+	background-color: #ffffff3d;
+	color: #fff!important;
 }
 
 h2.tribe-tickets__tickets-title {
