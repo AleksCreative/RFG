@@ -129,6 +129,7 @@ add_action('init', function () {
 function tribe_replace_strings() {
     $custom_text = [
         'Zip Code' => 'Postcode',
+        'Venue' => 'Location',
     ];
  
     return $custom_text;
