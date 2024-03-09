@@ -26,7 +26,8 @@
 
 $header_classes = [ 'tribe-events-header' ];
 if ( empty( $disable_event_search ) ) {
-	$header_classes[] = 'tribe-events-header--has-event-search';
+	$header_classes[] = 'tribe-events-header--has-event-search'; ?>
+	<?php
 }
 
 ?>
@@ -63,23 +64,28 @@ if ( empty( $disable_event_search ) ) {
 	 
 		<div class="tribe-events-calendar-list">
 		<br><br><h2>Upcoming events</h2><br>
+
 			<?php foreach ( $events as $event ) : ?>
 				<?php $this->setup_postdata( $event ); ?>
+
 
 				<?php /* $this->template( 'list/month-separator', [ 'event' => $event ] ); */ ?>
 
 				<?php  $this->template( 'list/event', [ 'event' => $event ] );  ?>
-
+	
 			<?php endforeach; ?>
 			<?php $this->template( 'list/nav' ); ?>
 
 			<?php /* $this->template( 'components/ical-link' ); */?>
-
-
+		<?php if(empty($events)) { ?>
+			<p>There are no upcoming events at this time.</p><br><br>
+		<?php } ?>
+				
 		</div>
+
 		<div class="tribe-previous-events-calendar-list-container">
 		<div class="tribe-previous-events-calendar-list">
-			<?php $this->template( 'components/after' ); ?>		
+		<?php $this->template( 'components/after' ); ?>		
 
 			<br><h2>Past events</h2><br>
 					
